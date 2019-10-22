@@ -12,7 +12,7 @@ Anatomy of HTML
 - Content
 - End Tag
 
-**HTML elements which have a self-closing tage; they do not require a closing tag:
+**HTML elements which have a self-closing tage; they do not require a closing tag:**
 ```HTML
 <br>
 <hr>
