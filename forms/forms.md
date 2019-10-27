@@ -22,3 +22,28 @@
 
 
 ![ScreenShot](forms3.png)
+
+# Inputs
+
+```HTML
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <form>
+    <input type="text" name="" value=""><br>
+    <input type="file" name="" value=""><br>
+    <input type="date" name="" value=""><br>
+    <input type="radio" name="" value=""><br>
+    <input type="range" name="" value=""><br>
+  </form>
+</body>
+
+</html>
+```
+![ScreenShot](inputs.png)
