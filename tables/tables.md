@@ -10,7 +10,7 @@
     </thead>
 </body>    
 ```
-- ```<thead>``` will automaticall title the verticle columns
+- ```<thead>``` will automatically title the verticle columns in our table
 
 ```HTML
   <tr>
