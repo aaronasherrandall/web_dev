@@ -13,7 +13,9 @@
 - ```<thead>``` will automatically title the verticle columns in our table
 
 ```HTML
-  <tr>
+ <body> 
+  <table>
+    <tr>
       <td>2015-2018</td>
       <td>Director of Sales at Tokyo Apartment</td>
     </tr>
@@ -24,5 +26,6 @@
     <td>2019</td>
     <td>Digital Marketing Manager at Abcam</td>
   </table>
+</body>
 ```
 - ```<tr>``` table rows and ```<td>``` can be used to populate our tables
