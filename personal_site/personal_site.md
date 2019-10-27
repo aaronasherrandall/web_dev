@@ -1,6 +1,6 @@
 # web_dev
 
-# Into to HTML: Personal Site
+# Intro to HTML: Personal Site
 
 ## Definitions
 
