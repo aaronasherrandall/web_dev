@@ -44,3 +44,39 @@
 
 ![ScreenShot](tables2.png)
 
+# Nested Tables
+
+```HTML
+<h3>Skills</h3>
+  <table>
+    <tr>
+      <td>
+        <table>
+          <tr>
+            <td>Japanese Language</td>
+            <td>⭐⭐⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Digital Marketing</td>
+            <td>⭐⭐⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <table>
+          <tr>
+            <td>Programming</td>
+            <td>⭐⭐⭐</td>
+          </tr>
+          <tr>
+            <td>Machine Learning</td>
+            <td>⭐⭐</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+```
+![ScreenShot](nested_tables.png)
+
+
