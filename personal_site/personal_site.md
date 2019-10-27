@@ -39,3 +39,7 @@
 - ```<em>``` tag tells browser that words in between should be emphasized; ```<i>``` tag only styles the text
 - It is better practce to use ```<em>```, as this contains more information
 - Similar to this is the ```<bold>``` and ```<strong>``` tag diferentiation
+
+## Anchor Links
+
+![Screenshot](anchor_links.png)
