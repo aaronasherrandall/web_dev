@@ -32,3 +32,7 @@
 
 ![ScreenShot](tables.png)
 
+- all attributes in table element are deprecated - or "downgraded" https://developer.mozilla.org/en-US/docs/Web/HTML/Element/table
+- HTML is for structure, CSS is for styling and JavaScript is for behavior
+- Even though it's possible to affect the style of your website using HTML, it is best practice to do this with CSS - i.e., why the attributes are deprecated for tables
+
