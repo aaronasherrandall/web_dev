@@ -28,7 +28,7 @@
   </table>
 </body>
 ```
-- ```<tr>``` table rows and ```<td>``` can be used to populate our tables
+- ```<tr>``` **table rows** and ```<td>``` **table data** can be used to populate our tables
 
 ![ScreenShot](tables.png)
 
