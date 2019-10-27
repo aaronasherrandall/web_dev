@@ -42,4 +42,4 @@
 
 ## Anchor Links
 
-![Screenshot](anchor_links.png)
+![Screenshot](anchor tag.png)
