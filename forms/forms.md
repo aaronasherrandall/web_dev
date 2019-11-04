@@ -47,3 +47,45 @@
 </html>
 ```
 ![ScreenShot](inputs.png)
+
+# Putting it all together
+
+Finally, our contact page and the HTML form looks like:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+    <p>My Fictional Address</p>
+    <p>My Fictional Email</p>
+    <p>myemail@gmail.com</p>
+
+    <!-- we set our encoding type to "plain/text" to tell the data in our form how to encoded
+    -->
+    <form action="mailto:aaronasherrandall@gmail.com" method="post" enctype="text/plain">
+      <label>Your Name</label>
+      <!-- we can add a value to each of the name attributes - this will identify the data that is inside each of the following inputs
+      -->
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</input>
+      <!-- The email input type performs validation for us-->
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
+```
+
+- We set our encoding type to "plain/text" to tell the data in our form how to encoded
+
+- We also set the form action to ```mailto``` - this relies on email clients to send the form data from the customer's computer to the form owner. The form data that is completed by the website user is emailed to a specific address as specified in the coding for the form:
+```HTML
+    <form action="mailto:aaronasherrandall@gmail.com" method="post" enctype="text/plain">
+```
